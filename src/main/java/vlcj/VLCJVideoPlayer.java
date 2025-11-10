@@ -863,7 +863,7 @@ public class VLCJVideoPlayer extends JFrame {
 
       // Highlight currently playing media
       if (index == currentMediaIndex && isPlaying) {
-        label.setText("▶ " + value.toString());
+        label.setText(value.toString());
         label.setFont(label.getFont().deriveFont(Font.BOLD));
       }
 
